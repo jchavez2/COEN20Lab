@@ -1,5 +1,5 @@
 /*
-    File Name: src_copy.s
+    File Name: lab_linear_src.s
     
 */
 
@@ -33,8 +33,8 @@ MxPlusB:
         ASR  R4,R4,31 // R4 <-- R4<<31 "Shift bits right"
         MUL  R4,R4,R2 // R4 <-- R4*R2
         LSL  R4,R4,1  // R4 <-- R4>>1  "Shift bits left" 
-        ADD R4,R4,R2  // R4 <-- R4+R2
-        LDR R5,=2   
+        ADD  R4,R4,R2 // R4 <-- R4+R2
+        LDR  R5,=2   
         SDIV R4,R4,R5 // R4 <-- R4/R2
 
         //Caculate Quiotent:
