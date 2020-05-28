@@ -1,0 +1,1 @@
+The file lib0-float.c is the floating-point emulation software presented in Chapter 10 of the 4th edition of "ARM Assembly for Embedded Applications". It has been replaced by an optimized version provided as lib2-float.c.
